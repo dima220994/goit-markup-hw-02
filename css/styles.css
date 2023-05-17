@@ -1,11 +1,93 @@
-:root {
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    color: var(--mediumdarkshadeofblue-color);
     background-color: #ffffff;
+}
+
+:root {
+    --title-color: #2e2f42;
+    --first-main-color: #4d5ae5;
+    --second-main-color: #404bbf;
+    --white-color: #f4f4fd;
+    --ghostWhite-color: #f4f4fd;
+    --tipical-line-height: 1.5;
+    --white-color: #ffffff;
+    --mediumdarkshadeofblue-color: #434455;
+}
+
+.list {
+    body {
+        font-size: 16px;
+        line-height: var(--tipical-line-height);
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        color: var(--white-color);
+        background: var(--first-main-color);
+        cursor: pointer;
+    }
 }
 
 body {
-    font-family: "Roboto" sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    line-height: var(--tipical-line-height);
+    letter-spacing: 0.04em;
+    color: var(--first-main-color);
+    background: var(--white-color);
+    background: var(--ghostWhite-color);
+    cursor: pointer;
 }
 
-.style-logos-logo {}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: #ffffff;
+    color: var(--white-color);
+    background: var(--second-main-color);
+}
+
+body {}
+
+.footer-logo-second {
+    color: var(--white-color);
+    color: var(--ghostWhite-color);
+}
+
+/*-----HEADER-----*/
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    color: var(--ghostWhite-color);
+}
+
+/*-----HERO-----*/
+body {
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    color: var(--white-color);
+}
+
+/*-----OUR PRINCIPLES AND PRIORITIES-----*/
+
+/*-----OUR TEAM-----*/
+.team-section {
+    background: var(--white-color);
+    background: var(--ghostWhite-color);
+}
+
+.body-title {}
+
+/* .team-list {} */
+.team-item {
+    background-color: #ffffff background-color: var(--white-color);
+}
+
+.team-title body {
+    font-size: 16px;
+    line-height: var(--tipical-line-height);
+    letter-spacing: 0.02em;
+    color: #434455;
+    color: var(--mediumdarkshadeofblue-color);
+}
