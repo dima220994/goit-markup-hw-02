@@ -16,17 +16,16 @@ body {
     --mediumdarkshadeofblue-color: #434455;
 }
 
-.list {
-    body {
-        font-size: 16px;
-        line-height: var(--tipical-line-height);
-        letter-spacing: 0.04em;
-        color: #ffffff;
-        color: var(--white-color);
-        background: var(--first-main-color);
-        cursor: pointer;
-    }
+body {
+    font-size: 16px;
+    line-height: var(--tipical-line-height);
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    color: var(--white-color);
+    background: var(--first-main-color);
+    cursor: pointer;
 }
+
 
 body {
     line-height: var(--tipical-line-height);
@@ -81,7 +80,7 @@ body {
 
 /* .team-list {} */
 .team-item {
-    background-color: #ffffff background-color: var(--white-color);
+    background-color: #ffffff
 }
 
 .team-title body {
