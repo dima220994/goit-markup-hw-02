@@ -11,18 +11,34 @@ body {
     --white-color: #f4f4fd;
     --ghostWhite-color: #f4f4fd;
     --tipical-line-height: 1.5;
-    --white-color: #ffffff;
+    --white-color: #434455;
     --mediumdarkshadeofblue-color: #434455;
 }
 
-body {
-    font-size: 16px;
-    line-height: var(--tipical-line-height);
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    color: var(--white-color);
-    background: var(--first-main-color);
-    cursor: pointer;
+.logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
 }
 
 
@@ -42,7 +58,13 @@ body {
     background: var(--second-main-color);
 }
 
-body {}
+a {
+    text-decoration: none;
+}
+
+.logo-studio {
+    color: var(--title-color);
+}
 
 .footer-logo-second {
     color: var(--white-color);
@@ -50,6 +72,10 @@ body {}
 }
 
 /*-----HEADER-----*/
+ul {
+    list-style: none;
+}
+
 body {
     font-size: 16px;
     line-height: 1.5;
