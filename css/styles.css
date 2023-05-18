@@ -125,3 +125,75 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
+
+/* Section 2 */
+.work {}
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.work-list {
+    display: flex;
+}
+
+.list {}
+
+.work-item {}
+
+/* Section 3 */
+.team {}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.team-list {
+    display: flex;
+}
+
+.list {}
+
+.team-item {}
+
+.team-second-title {}
+
+.team-text {}
+
+/* Footer  */
+.footer {
+    background-color: var(--title-color);
+}
+
+.logo-link {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--first-main-color);
+}
+
+.link {}
+
+.span-footer {}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--ghostWhite-color);
+}
