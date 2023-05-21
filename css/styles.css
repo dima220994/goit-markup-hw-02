@@ -139,9 +139,7 @@ body {
     color: var(--title-color);
 }
 
-.work-list {
-    display: flex;
-}
+.work-list {}
 
 .list {}
 
@@ -196,4 +194,54 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--ghostWhite-color);
+}
+
+/* PORTFOLIO */
+.list {}
+
+.port-buttons {}
+
+.portfolio-Design {}
+
+.filter-but {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    color: var(--first-main-color);
+    background-color: var(--ghostWhite-color);
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white-color);
+    background-color: var(--first-main-color);
+}
+
+/* PORTFOLIO CARDS */
+.cards {}
+
+.title-list {}
+
+.link {}
+
+.cards-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.cards-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+
 }
