@@ -235,7 +235,7 @@ body {
 
 .cards-text {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
@@ -246,3 +246,4 @@ body {
 .portfolio-button:focus {
     color: var(--white-color);
     background-color: var(--first-main-color);
+}
