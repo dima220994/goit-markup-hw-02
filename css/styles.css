@@ -160,8 +160,8 @@ body {
 
 .team-list {}
 
-.team-list-item {
-    background-color: var(--light-color);
+.list {
+    background-color: var(--white-color);
 }
 
 .team-second-title {
