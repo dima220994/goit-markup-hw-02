@@ -93,6 +93,7 @@ body {
 
 /* button */
 .title-btn {
+    font-family: "Roboto", sans-serif;
     color: var(--white-color);
     background: var(--passive-color);
     font-weight: 500;
@@ -163,7 +164,7 @@ body {
     background-color: var(--light-color);
 }
 
-.team-gallery-caption {
+.team-second-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
