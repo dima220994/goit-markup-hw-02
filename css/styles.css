@@ -160,7 +160,7 @@ body {
 
 .team-list {}
 
-.list {
+.team-item {
     background-color: var(--white-color);
 }
 
